@@ -35,7 +35,7 @@ jenkins:
       service.beta.kubernetes.io/aws-load-balancer-backend-protocol: http
     GlobalLibraries: true
     InstallPlugins:
-    - durable-task:1.24
+    - durable-task:1.28
     - workflow-durable-task-step:2.21
     - blueocean:1.7.1
     - credentials:2.1.18
